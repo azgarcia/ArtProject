@@ -42,8 +42,10 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: black;
+    color: white;
 }
 .footer {
   position: absolute;
@@ -54,3 +56,60 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+#theForm{
+    background-color: darkgrey;
+    color: black;
+}
+    #theForm input[type=submit]{
+    background-color: black;
+    color: white;
+    }
+
+.product-props{
+    font-size: small;
+}
+ .product-props li {
+     list-style-type: none;
+ }
+
+.product-info{
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    /*width: 500px;*/
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+
+}
+ .product-info img {
+     max-width: 300px;
+     margin: 3px;
+     border: 1px solid black;
+    
+ }
+
+ #loginToggle {
+     cursor: pointer;
+ }
+
+ .popup-form {
+     padding: 5px;
+     border: 2px black inset;
+     display: inline-block;
+ }
+
+ .popup-form input {
+     width: 200px;
+ }
+
+ .popup-form label {
+     width: 150px;
+     display: inline-block;
+ }
+
+ .popup-form input[type=checkbox], .popup-form input[type=submit]{
+     width: auto;
+ }
